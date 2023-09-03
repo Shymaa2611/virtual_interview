@@ -1,0 +1,108 @@
+{
+    "interview_questions": [
+        {
+            "question": "What is Python, and what are its key features?",
+            "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability. Its key features include dynamic typing, automatic memory management, a vast standard library, and support for both procedural and object-oriented programming paradigms."
+        },
+        {
+            "question": "Explain the differences between Python 2 and Python 3.",
+            "answer": "Python 2 is an older version of Python, while Python 3 is the current version. Some key differences include the print statement (Python 2) vs. print() function (Python 3), Unicode handling improvements in Python 3, and integer division behavior."
+        },
+        {
+            "question": "What are the different data types in Python?",
+            "answer": "Python supports various data types, including integers, floating-point numbers, strings, lists, tuples, dictionaries, sets, and more."
+        },
+        {
+            "question": "How do you comment out multiple lines of code in Python?",
+            "answer": "You can use triple quotes (single or double) to create multiline comments in Python."
+        },
+        {
+            "question": "What is the purpose of indentation in Python?",
+            "answer": "Indentation is used for code readability and structure. It determines the scope of blocks of code, such as in loops and functions."
+        },
+        {
+            "question": "How do you declare and use variables in Python?",
+            "answer": "Variables in Python are declared by assigning a value to a name. For example: `x = 10`. You can then use the variable in expressions and statements."
+        },
+        {
+            "question": "What are Python data structures? Give examples.",
+            "answer": "Python data structures are containers to hold and organize data. Examples include lists, tuples, dictionaries, sets, and arrays."
+        },
+        {
+            "question": "Explain the difference between a list and a tuple in Python.",
+            "answer": "Lists are mutable (can be modified), while tuples are immutable (cannot be changed after creation)."
+        },
+        {
+            "question": "What is a dictionary in Python, and how is it different from a list?",
+            "answer": "A dictionary is an unordered collection of key-value pairs. It is accessed by keys, not indices, and allows for fast lookups. Lists are ordered and accessed by indices."
+        },
+        {
+            "question": "How do you create a function in Python?",
+            "answer": "You create a function using the `def` keyword, followed by the function name and parameters. For example:\n\n```python\n    def my_function(parameter1, parameter2):\n        # Function code here\n```"
+        },
+        {
+            "question": "Explain the terms 'function arguments' and 'function parameters' in Python.",
+            "answer": "Parameters are variables listed in the function definition. Arguments are the values passed into a function when it's called."
+        },
+        {
+            "question": "What is the purpose of the 'if' statement in Python?",
+            "answer": "The 'if' statement is used for conditional execution. It allows you to execute specific code blocks based on a condition."
+        },
+        {
+            "question": "What is the difference between '==' and 'is' in Python?",
+            "answer": "'==' checks for equality in values, while 'is' checks for identity (whether two objects are the same)."
+        },
+        {
+            "question": "How do you handle exceptions in Python?",
+            "answer": "Exceptions are handled using 'try', 'except', and 'finally' blocks. You catch and handle exceptions in the 'except' block."
+        },
+        {
+            "question": "What is a Python module, and how do you import one?",
+            "answer": "A module is a file containing Python code. You import a module using the 'import' statement."
+        },
+        {
+            "question": "Describe list comprehension in Python.",
+            "answer": "List comprehension is a concise way to create lists. It uses a compact syntax to iterate over an iterable and create a new list."
+        },
+        {
+            "question": "What is object-oriented programming (OOP), and how does Python support it?",
+            "answer": "OOP is a programming paradigm that organizes code into objects with attributes and methods. Python supports OOP through classes and objects."
+        },
+        {
+            "question": "Explain the concept of inheritance in Python classes.",
+            "answer": "Inheritance allows a class (subclass) to inherit properties and methods from another class (superclass). It promotes code reuse and extensibility."
+        },
+        {
+            "question": "What is a generator in Python, and how is it different from a regular function?",
+            "answer": "A generator is a special type of iterable that generates values on-the-fly, using the 'yield' keyword. It saves memory compared to regular functions that return lists."
+        },
+        {
+            "question": "How do you open and close files in Python?",
+            "answer": "You can open a file using the 'open()' function and close it using the 'close()' method or the 'with' statement for automatic closing."
+        },
+        {
+            "question": "What is the Global Interpreter Lock (GIL) in Python, and how does it affect multi-threading?",
+            "answer": "The GIL is a mutex that allows only one thread to execute in CPython (Python's reference implementation) at a time. It can limit the effectiveness of multi-threading in CPU-bound tasks."
+        },
+        {
+            "question": "What is the purpose of the '__init__' method in a Python class?",
+            "answer": "The '__init__' method is a constructor in Python classes. It initializes object attributes when an instance of the class is created."
+        },
+        {
+            "question": "How can you make a Python script executable from the command line?",
+            "answer": "You can make a Python script executable by adding a shebang line at the beginning (e.g., '#!/usr/bin/env python') and making the script file executable using 'chmod +x'."
+        },
+        {
+            "question": "Explain the use of the 'join()' method for strings and lists in Python.",
+            "answer": "The 'join()' method concatenates elements of an iterable (e.g., a list) into a single string using a specified separator."
+        },
+        {
+            "question": "What are decorators in Python, and how are they used?",
+            "answer": "Decorators are functions that modify the behavior of other functions or methods. They are often used to add functionality to functions or methods without modifying their source code."
+        },
+        {
+            "question": "What is the difference between shallow copy and deep copy in Python?",
+            "answer": "A shallow copy copies the top-level structure of an object, while a deep copy creates a new object and recursively copies all objects referenced by the original."
+        }
+    ]
+}
